@@ -1,5 +1,3 @@
-// Summarize Vodafone Cash Transactions
-
 'use server';
 
 /**
@@ -28,7 +26,7 @@ const prompt = ai.definePrompt({
   Consider the month and year if provided, and only summarize transactions from that period. If the month and year is not provided, summarize all transactions.
 
   Transactions:
-  {{transactions}}
+  {{{transactions}}}
 
   Month: {{month}}
   Year: {{year}}`,
